@@ -1,49 +1,7 @@
   #body {
 	background-color: #f3f3f0;
 }
-/*#h1 {
-	background-color: #f3f3f0;
-	width: 60%;
-	border-width: 0,5em;
-	border-style: solid;
-	border-color: black;
-	margin-left: 20%;
-	text-align: center;
-}
-#Buttons {
-	margin-left: 20%;
-}
-#ButtonList {
-	display: inline-block;
-}
-#button1 {
-	background-color: #f3f3f0;
-	width: 10em;
-	height: 5em;
-	border-width: 0,5em;
-	border-style: solid;
-	border-color: black;
-	margin-left: 20%;
-	text-align: center;
-}
 
-#button1:hover {
-	background-color: #3e8e41;
-}
-#button1:active {
-  background-color: #3e8e41;
-}
-#p1 {
-	background-color: #f3f3f0;
-	text-align: justified;
-	border-style: solid;
-	border-width: 2%;
-	border-color: #aaaaff;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 1em;
-}*/
-/* Vanaf hier ben ik verder gegaan */
 
 /*HEADER CSS*/
 #headerText {
@@ -58,12 +16,13 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-	background-image: url("plaatjes/schepijs.jpg");
+	background-image: url("Plaatjes/schepijs.jpg");
 	overflow: hidden;
 	height: 3em;
 	padding-top: 1.5em;
 	text-shadow: 3px 3px gray;
 }
+
 
 /*MENUBALK CSS*/
 #menuBalk {
@@ -72,6 +31,7 @@
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	box-shadow: 0px 10px 5px 0px rgba(159, 159, 159, 0.69);
 }
 
 .menuButton {
@@ -99,6 +59,7 @@
 	cursor: pointer;
 	box-shadow: 0px 10px 5px 0px rgba(159, 159, 159, 0.69);
 }
+
 
 /*LOGIN CSS*/
 .login {
@@ -170,6 +131,66 @@
 	width: 9em;
 }
 
+/*HOME CSS*/
+
+#homeText {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	width: 50em;
+	font-family: Arial;
+	border-style: solid;
+	border-color: rgb(20, 124, 20);
+	border-width: 0.5em;
+	background-color: rgb(204, 255, 204);
+	padding: 0.5em;
+}
+
+#homeHeader {
+	text-align: center;
+}
+
+#homePageD1 {
+	margin-top: 5%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-image: url("Plaatjes/schepijs.jpg");
+}
+
+#homePageTxt {
+	background-color: #f3f3f0;
+}
+
+
+/*CONTACT CSS*/
+
+#contactText {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	width: 50em;
+	font-family: Arial;
+	border-style: solid;
+	border-color: rgb(20, 124, 20);
+	border-width: 0.5em;
+	background-color: rgb(204, 255, 204);
+	padding: 1em;
+}
+
+#contactHeader {
+	text-align: center;
+}
+
+#contactQuestion {
+	text-align: center;
+}
+
+#contactP {
+	padding-left: 20px;
+}
+
 /*SHOP CSS*/
 
 #spacer {
@@ -180,14 +201,15 @@
 	border: 2px;
 	height: 20em;
 	width: 20em;
-	margin-left: 1%;
-	margin-right: 1%;
+	/*padding-left: 1%;
+	padding-right: 1%;*/
+	padding: 1%;
 	text-align: left;
 }
 
 .catImg:hover {
-	height: 21em;
-	width: 21em;
+	background-color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
 }
 
 #catHead {
@@ -203,3 +225,4 @@
 	margin-left: 5%;
 	margin-right: 5%;
 }
+

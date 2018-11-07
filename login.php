@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Login-Schepijs</title>
 <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+<link rel="icon" href="plaatjes/favicon.ico" type="image/ico">
 </head>
 
 <body oncontextmenu="return false" id="loginBckgrnd">
