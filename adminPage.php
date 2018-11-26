@@ -13,9 +13,7 @@
 
 	try {
 		$conn = new PDO("mysql:host=$servername;dbname=store", $username, $password);
-		// set the PDO error mode to exception
-		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-		//echo "Connected successfully"; 
+		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION); 
 		}
 	catch(PDOException $e)
 		{
@@ -24,7 +22,12 @@
 	?>
 	
 		<script src="jscript.js"></script>
-		
+		<div>
+			
+			<div id="adminHeader">
 
+			</div>
+			<img src=plaatjes/close.png class="adminMenuButton">
+		</div>
 </body>
 </html>

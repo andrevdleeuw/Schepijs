@@ -152,15 +152,30 @@
 
 #homePageD1 {
 	margin-top: 5%;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-image: url("Plaatjes/schepijs.jpg");
+	height: 33em;
+	background-color: white;
 }
 
 #homePageTxt {
-	background-color: #f3f3f0;
+	background-color: white;
+	padding: 1em;
+	font-family: "Century Gothic";
+	font-weight: bold;
+
+
+
+}
+
+#sideImg {
+	width: 40em;
+	height: auto;
+	border-radius: 1.5px;
+	
+}
+
+#homePageImg1 {
+	float: right;
+	
 }
 
 
@@ -226,3 +241,15 @@
 	margin-right: 5%;
 }
 
+/*ADMIN PAGE CSS*/
+
+#adminHeader {
+	background-image: radial-gradient(circle, rgb(0, 0, 0), rgba(70, 70, 70, 0.507));
+	height: 2em;
+	width: 100%;
+}
+.adminMenuButton {
+	width: 3em;
+	height: 3em;
+	padding: .5em;
+}
