@@ -7,7 +7,7 @@ function shopButton(){
 }
 
 function contactButton(){
-    window.location.href = "contact.php";//contact.php bestaat nog niet
+    window.location.href = "contact.php";
 }
 
 function loginButton(){
@@ -16,7 +16,7 @@ function loginButton(){
 
 //doet alles wat gebeurt als de pagina laadt
 function loadPage(){
-
+    
 }
 
 window.onload = loadPage();
@@ -31,3 +31,15 @@ function check(form){
         alert("Het wachtwoord of de gebruikersnaam is niet correct!")
     }
 }
+
+//store pagina laden
+
+function loadStore(categoryVar) {
+    if (categoryVar == 1) {
+        window.location.href = "store1.php";
+    } 
+    else if (categoryVar == 2) {
+        window.location.href = "store2.php";
+    }
+}
+

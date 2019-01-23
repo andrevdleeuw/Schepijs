@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>De Schepijs Winkel</title> 
+	<title>Contact</title> 
 	<link rel="stylesheet" type="text/css" href="stylesheet1.css">
 	<link rel="icon" href="plaatjes/favicon.ico" type="image/ico">
 </head>
-<body id="body">
-		<?php
+<body>
+	<script src="jscript.js"></script>
+	<?php
 				$servername = "localhost:8080";
 				$username = "root";
 				$password = "";
@@ -22,41 +23,25 @@
 					echo "Connection failed: " . $e->getMessage();
 					}
 		?>
-	
-		<script src="jscript.js"></script>
-		
-		
 		<div id="pageHeader">
-			
-			<div id="headerText">
-				De Schepijs Winkel
-			</div>
+			<div id="headerText">De Schepijs Winkel&#8482;</div>
 		</div>
 		<div id="menuBalk">
-			<button class="menuButton" id="homeButton" onclick = homeButton();>
+			<button class="menuButton" id="homeButton" onclick = homeButton(); >
 				Home
 			</button>
-			<button class="menuButton" id="shopButton" onclick = shopButton(); style="border-width: .1em;">
+			<button class="menuButton" id="shopButton" onclick = shopButton() ; style="border-width: .1em;">
 				Shop
 			</button>
 			<button class="menuButton" id="contacButton" onclick = contactButton();>
 				Contact	
 			</button>
-			<button class="menuButton" id="loginButton" onclick= loginButton();>
+			<button class="menuButton" id="loginButton" onclick = loginButton();>
 				Login
 			</button>
 		</div>
-		<div id="spacer">
+			
+	
 
-		</div>
-		<div id="catHead">
-			Categorien:
-		</div>
-		<div id="categoryContainer">
-			<img src="plaatjes/ice-cream.png" class="catImg" onclick = loadStore(1);>
-			<img src="plaatjes/ice-cream (1).png" class="catImg" onclick = loadStore(2);>
-			<img src="" class="catImg" onclick = loadStore(3);>
-			<img src="" class="catImg" onclick = loadStore(4);>
-		</div>
 </body>
 </html>

@@ -26,7 +26,8 @@
 
 /*MENUBALK CSS*/
 #menuBalk {
-	background-color: rgb(50, 146, 50);
+	/*background-color: rgb(50, 146, 50);*/
+	background-image: radial-gradient(circle, rgb(124, 89, 12), rgba(151, 124, 65, 0.781));
 	height: 3em;
 	text-align: center;
 	padding-top: 10px;
@@ -35,7 +36,8 @@
 }
 
 .menuButton {
-	background-color: rgb(115, 209, 112);
+	/*background-color: rgb(115, 209, 112);*/
+	background-image: radial-gradient(circle, rgb(206, 193, 168), rgba(231, 217, 184, 0.781));
 	width: 10em;
 	height: 3em;
 	border-width: 0px;
@@ -48,7 +50,7 @@
 }
 
 .menuButton:hover {
-	background-color: rgb(94, 150, 92);
+	background-image: radial-gradient(circle, rgb(32, 112, 202), rgba(32, 112, 202, 0.712));;
 	width: 11em;
 	height: 4em;
 	border-top: none;
@@ -253,3 +255,8 @@
 	height: 3em;
 	padding: .5em;
 }
+
+
+
+
+
