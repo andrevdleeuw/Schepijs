@@ -22,6 +22,8 @@
 					{
 					echo "Connection failed: " . $e->getMessage();
 					}
+				
+				
 		?>
 		<div id="pageHeader">
 			<div id="headerText">De Schepijs Winkel&#8482;</div>
